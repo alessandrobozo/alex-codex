@@ -104,7 +104,7 @@ const handleSubmit = async (e) => {
 
     err = JSON.parse(err);
 
-    console.log(err);
+    alert(err.message);
   }
 }
 
