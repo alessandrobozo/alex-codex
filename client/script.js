@@ -102,6 +102,7 @@ const handleSubmit = async (e) => {
 
     messageDiv.innerHTML = "Something went wrong";
 
+    console.log(err);
     alert(err.message);
   }
 }
