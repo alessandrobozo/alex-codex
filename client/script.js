@@ -105,6 +105,7 @@ const handleSubmit = async (e) => {
     err = JSON.parse(err);
 
     console.log(err);
+  }
 }
 
 form.addEventListener('submit', handleSubmit);
