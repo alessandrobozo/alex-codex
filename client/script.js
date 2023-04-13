@@ -102,9 +102,11 @@ const handleSubmit = async (e) => {
 
     messageDiv.innerHTML = "Something went wrong";
 
+    err = parseJson(err);
+
     console.log(err);
-    alert(err.message);
-  }
+
+
 }
 
 form.addEventListener('submit', handleSubmit);
